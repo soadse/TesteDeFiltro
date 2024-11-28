@@ -10,6 +10,8 @@ let btnBusca = document.getElementById('btnBusca')
 let btnMostrarLista = document.getElementById('btnMostrarLista')
 let resultadoDeBusca = document.getElementById('resultadoDeBusca')
 
+let btnLimpa = document.getElementById('btnLimpa')
+
 inputNomesCadastro.addEventListener('click', () => {
     resultadoDeBusca.innerHTML = ''
 })
@@ -44,6 +46,13 @@ btnMostrarLista.addEventListener('click', () => {
     } else {
         resultadoDeBusca.innerHTML = lista
     }
+})
+
+btnLimpa.addEventListener('click', () => {
+    resultadoDeBusca.value = ''
+    inputNomesCadastro.value = ''
+    resultadoDeBusca.innerHTML = ''
+    
 })
 
 

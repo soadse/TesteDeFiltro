@@ -16,10 +16,27 @@ body {
     text-align: center;
 }
 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 10px;
+}
+div input[type='text'] {
+    outline: 0;
+}
+div button {
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 #resultadoDeBusca {
     margin-top: 50px;
     font-size: 2rem;
     
+}
+#btns button {
+    margin: 5px;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
 }
