@@ -57,10 +57,6 @@ btnLimpa.addEventListener('click', () => {
 
 
 
-
-
-
-
 // if(lista.includes(nome)){
 //     div2.innerHTML = `Nome localizado: ${nome}`
 // } else {
